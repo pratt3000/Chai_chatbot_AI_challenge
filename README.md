@@ -1,7 +1,9 @@
 # Brief overview (of best performing workflow)
 I chose the researcher track for my work. My best performing pipeline is a 2 step process. SFT + DPO.
-Best performing model ELO: 1266 (job link - https://console.chaiverse.com/models/pratt3000-mistral-nemo-_23899_v3)
-The entire scripts for best performing model are in `finetuning_scripts/best_performing_pipeline_scripts`
+
+Best performing model `ELO: 1266` [link](https://console.chaiverse.com/models/pratt3000-mistral-nemo-_23899_v3)
+
+The entire scripts for best performing model are in `finetuning_scripts/best_performing_pipeline_scripts`<br>
 More details here: `best_performing_pipeline_config.txt`
 
 ## Finetuning Step 1: SFT
