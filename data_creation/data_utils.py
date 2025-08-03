@@ -3,6 +3,7 @@
 # These functions convert each dataset's unique format into a standardized
 # list of messages with 'role' and 'content' keys.
 # =====================================================================================
+import re
 
 def process_erotiquant(example):
     """
