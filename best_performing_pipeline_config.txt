@@ -1,0 +1,25 @@
+
+SFT:
+Dataset: data/chai_conversations_filtered_39k_old_format.jsonl
+script: finetuning_scripts/best_performing_pipeline_scripts/SFT.ipynb
+
+DPO:
+Dataset: tiendung/chai (huggingface)
+script: finetuning_scripts/best_performing_pipeline_scripts/DPO.ipynb
+
+Online params:
+generation_params: {
+    'temperature': 0.6, 
+    'top_p': 0.75, 
+    'min_p': 0.0, 
+    'top_k': 80, 
+    'presence_penalty': 0.0, 
+    'frequency_penalty': 0.0, 
+    'stopping_words': ['\n'], 
+    'max_input_tokens': 1024, 
+    'best_of': 8, 
+    'max_output_tokens': 64
+}
+
+
+
