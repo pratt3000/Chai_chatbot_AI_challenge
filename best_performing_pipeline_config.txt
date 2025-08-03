@@ -1,3 +1,4 @@
+Compute used: A100
 
 SFT:
 Dataset: data/chai_conversations_filtered_39k_old_format.jsonl
